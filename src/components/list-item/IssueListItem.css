@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+}
+
+.issue-item {
+  display: flex;
+  text-align: center;
+  padding: 10px;
+}
+
+.item-id {
+  max-width: 25px;
+}
+
+.item-title {
+  margin-left: auto;
+  min-width: 80%;
+}
+
+.item-priority {
+  max-width: 50px;
+  margin-left: auto;
+}
+
+.item-status {
+  display: block;
+  margin-left: auto;
+}
+.issue-item.low {
+  background-color: greenyellow;
+}
+
+.issue-item.medium {
+  background-color: rgb(255, 218, 151);
+}
+
+.issue-item.high {
+  background-color: rgb(255, 111, 111);
+}
